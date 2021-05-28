@@ -28,4 +28,8 @@ ChartLinter 有两个重要模块，一个是 Linter，另一个是 Fixer。从�
 $ npm install @antv/chart-linter
 ```
 
+## 合作机构
+
+ChartLinter 灵感来源于 [Vega-lite-linter](http://vegalite-linter.idvxlab.com/)，由 [AntV/AVA](https://ava.antv.vision/) 和 [iDVx](https://idvxlab.com/) 共同研发。
+
 </div>

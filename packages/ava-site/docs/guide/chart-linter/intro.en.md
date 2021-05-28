@@ -23,4 +23,8 @@ According to chart type, chart configuration and rules, identify the problems in
 $ npm install @antv/chart-linter
 ```
 
+## Collaboration
+
+ChartLinter was inspired by [Vega-lite-linter](http://vegalite-linter.idvxlab.com/) and invented by [AntV/AVA](https://ava.antv.vision/) and [iDVx](https://idvxlab.com/).
+
 </div>
