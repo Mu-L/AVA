@@ -1,0 +1,24 @@
+{
+  "title": {
+    "zh": "中文分类",
+    "en": "Category"
+  },
+  "demos": [
+    {
+      "filename": "df.jsx",
+      "title": {
+        "zh": "读取数据",
+        "en": "Read data"
+      },
+      "screenshot": "https://iph.href.lu/800x400?text=read-data"
+    },
+    {
+      "filename": "info.jsx",
+      "title": {
+        "zh": "数据字段分析",
+        "en": "Data field analysis"
+      },
+      "screenshot": "https://iph.href.lu/800x400?text=data-field-analysis"
+    }
+  ]
+}

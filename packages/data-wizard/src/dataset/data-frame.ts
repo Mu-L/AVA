@@ -581,7 +581,7 @@ export default class DataFrame extends BaseFrame {
    */
   info(): FieldsInfo {
     const fields: FieldsInfo = [];
-    for (let i = 0; i < this.columns.length; i += 1) {
+    for (let i = 0; i < this.columns?.length; i += 1) {
       const column = this.columns[i];
       fields.push({ ...analyzeField(this.colData[i]), name: String(column) });
     }
@@ -592,8 +592,8 @@ export default class DataFrame extends BaseFrame {
    * Get tabular data string.
    */
   toString(): string {
-    return `   ${this.columns.join('  ')}\n${this.index
-      .map((idx, i) => `${idx}  ${this.data[idx].join('  ')}${i !== this.index.length ? '\n' : ''}`)
+    return `   ${this.columns?.join('  ')}\n${this.index
+      .map((idx, i) => `${idx}  ${this.data[idx]?.join('  ')}${i !== this.index.length ? '\n' : ''}`)
       .join('')}`;
   }
 }

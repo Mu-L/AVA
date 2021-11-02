@@ -1,0 +1,16 @@
+{
+  "title": {
+    "zh": "中文分类",
+    "en": "Category"
+  },
+  "demos": [
+    {
+      "filename": "index.jsx",
+      "title": {
+        "zh": "统计学方法示例",
+        "en": "Statistical methods"
+      },
+      "screenshot": "https://iph.href.lu/800x400?text=statistical-methods"
+    }
+  ]
+}

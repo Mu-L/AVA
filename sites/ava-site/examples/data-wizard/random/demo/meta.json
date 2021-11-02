@@ -1,0 +1,16 @@
+{
+  "title": {
+    "zh": "中文分类",
+    "en": "Category"
+  },
+  "demos": [
+    {
+      "filename": "index.jsx",
+      "title": {
+        "zh": "随机数生成示例",
+        "en": "Random data generation"
+      },
+      "screenshot": "https://iph.href.lu/800x400?text=random-data-generation"
+    }
+  ]
+}
