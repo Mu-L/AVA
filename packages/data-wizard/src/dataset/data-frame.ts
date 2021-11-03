@@ -36,8 +36,8 @@ export default class DataFrame extends BaseFrame {
       /** 1D: basic type | array */
       if (this.data.length > 0) {
         this.generateColumns([0], extra?.columns);
-        this.data = [this.data];
-        this.colData = this.data;
+        this.colData = [this.data];
+        this.data = this.data.map((datum) => [datum]);
       }
 
       /**
@@ -586,5 +586,14 @@ export default class DataFrame extends BaseFrame {
       fields.push({ ...analyzeField(this.colData[i]), name: String(column) });
     }
     return fields;
+  }
+
+  /**
+   * Get tabular data string.
+   */
+  toString(): string {
+    return `   ${this.columns.join('  ')}\n${this.index
+      .map((idx, i) => `${idx}  ${this.data[idx].join('  ')}${i !== this.index.length ? '\n' : ''}`)
+      .join('')}`;
   }
 }
